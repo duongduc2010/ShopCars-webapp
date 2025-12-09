@@ -1,5 +1,6 @@
-//https://www.classicdriver.com/en
 import './assets/main.css'
+import './scss/styles.scss'
+import 'bootstrap'
 
 import { createApp } from 'vue'
 import App from './App.vue'
