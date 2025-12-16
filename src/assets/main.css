@@ -1,0 +1,15 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Chiều cao tối thiểu bằng 100% màn hình */
+}
+
+.container {
+  flex: 1; /* Tự động giãn ra để chiếm hết khoảng trống còn lại */
+}
+
+.row.align-items-center {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}

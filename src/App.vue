@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <AppHeader v-if="!$route.meta.hideLayout"></AppHeader>
-    <main class="main-content">
+    <main class="container">
       <router-view />
     </main>
     <AppFooter v-if="!$route.meta.hideLayout"></AppFooter>
